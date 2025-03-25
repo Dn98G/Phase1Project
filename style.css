@@ -1,0 +1,128 @@
+html{
+    font-size: 60%;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: rgb(8, 10, 10);
+    color: rgb(27, 21, 21);
+}
+h1,h2,h3,h4{
+    font-weight: 500;
+    
+}
+h1{
+    font-style: inherit;
+}
+h4{
+    font-style: oblique;
+    font-variant: small-caps;
+}
+a{
+    text-decoration: none;
+}
+img{
+    height: 700px;
+    width: 700px;
+    position: fixed;
+    right: 5%;
+    z-index: -1;
+    margin-top: 30px;
+    padding-top: 120px;
+}
+
+.container{
+    max-width: 114rem;
+    margin: 0 auto;
+    color: rgb(20, 20, 20);
+}
+.header{
+    position: relative;
+    font-size: large;
+    font-style: inherit;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 112, 40);
+    z-index: 1;
+}
+.nav-list{
+    list-style: none;
+}
+
+.nav{
+    color: rgb(83, 80, 79);
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top-nav{
+    display: run-in;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo h1{
+    font-size: 2.5rem;
+    color: rgb(206, 206, 19);
+}
+.logo h1 span{
+    font-weight: bold;
+    color: chocolate;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav.item:not(:last-child){
+    margin-right: 0.5rem;
+}
+.nav-link:link,nav-link:visited{
+    color: rgb(86, 11, 172);
+    padding: 1rem 0.8rem;
+    transition: all 300ms ease-in-out;
+    font-size: large;
+    font-weight: 300;
+}
+.nav-link:hover{
+    border-radius: 0.3rem;
+    background-color: rgb(196, 165, 168);
+}
+@media only screen and (max-width:1200px){
+    .container{
+        padding: 0 3rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        max-width: 40rem;
+        background: #fff;
+        transition: all 500ms ease-in-out;
+        z-index: 100;
+    }
+}
+.menu .show{
+    left: 0;
+}
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque
+    paddi
+}
+.hamburger {
+    display: block;
+    color: burlywood;
+    font-size: medium;
+    padding: 0.5rem;
+    cursor: pointer;
+}
