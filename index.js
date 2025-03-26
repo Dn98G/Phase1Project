@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const position = document.getElementById("position");
   const captain = document.getElementById("captain");
   const founded = document.getElementById("founded");
-  const titles = document.getElementById("titles");
   const ucl = document.getElementById("ucl");
   const coach = document.getElementById("coach");
   const players = document.getElementById("players");
