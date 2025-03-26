@@ -118,10 +118,9 @@
     },
     {
       "id": 11,
-      "name": "Borussia Dortmund",
-      "badge": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1200px-Borussia_Dortmund_logo.svg.png",
-      "description": "'Borussia Dortmund', commonly known as Dortmund or BVB (Ballspielverein Borussia 09 e.V. Dortmund), is one of the most successful and popular football clubs in Germany. Founded in 1909 and based in Dortmund, the club plays its home matches at the iconic 'Signal Iduna Park', one of the largest and most atmospheric stadiums in Europe. Borussia Dortmund is renowned for its attacking football, passionate fanbase, and focus on developing young talent through its academy. The club has won multiple Bundesliga titles, DFB-Pokal trophies, and the UEFA Champions League in 1997, which remains one of its most memorable achievements. Dortmund's rivalry with Bayern Munich, known as 'Der Klassiker', is one of the fiercest in German football. The club's famous 'Yellow Wall'—the south stand of Signal Iduna Park—is a symbol of the fans' unwavering support and has become an emblem of their dedication.",
-      "league": "Bundesliga",
+      "name": "Ipswich Town",
+      "badge": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8c70/live/7aa8b750-21d6-11ef-80aa-699d54c46324.jpg",
+      "description": "Ipswich Town F.C. is a historic football club based in Suffolk, England, with a proud tradition in English football. Founded in 1878, the club enjoyed its golden era in the late 20th century, winning the First Division title in 1961-62 and the UEFA Cup in 1980-81 under legendary manager Sir Bobby Robson. Known for their passionate fanbase and strong community ties, Ipswich play their home matches at Portman Road. After years of fluctuating between divisions, the Tractor Boys are striving to reclaim their place in the top tiers of English football, aiming for promotion and long-term stability.",
       "position": 3,
       "captain": "Emre Can",
       "founded": 1909,
