@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Manchester United",
       "badge": "https://i.pinimg.com/736x/80/b9/56/80b956dd431d2f1eb3dd4c21d2a0e1a1.jpg",
-      "description": "Manchester United Football Club, also known as Man Utd or the Red Devils, is one of the most prestigious and globally recognized football clubs. Established in 1878 as Newton Heath LYR Football Club, the team rebranded in 1902, adopting the name Manchester United. Their home ground is Old Trafford, a historic stadium in Greater Manchester, England, fondly called 'Theatre of Dreams' by fans. The club holds an impressive record, including 20 English top-flight league titles, 13 FA Cups, and 3 UEFA Champions League trophies. Legendary managers such as Sir Matt Busby and Sir Alex Ferguson played pivotal roles in shaping its legacy. Ferguson, in particular, led the team to immense success from 1986 to 2013, including the iconic 1999 treble of the Premier League, FA Cup, and UEFA Champions League. Manchester United is celebrated for its resilience, especially following the Munich air disaster in 1958, which claimed the lives of several players. The club overcame this tragedy and became the first English team to win the European Cup in 1968. With intense rivalries against Liverpool, Manchester City, and others, United has cultivated one of the largest and most passionate fanbases globally. Financially, it is among the most valuable clubs in the world, renowned for its brand power and commercial success.",
+      "description": "Manchester United F.C. is one of the most successful and globally renowned football clubs, based in Old Trafford, Greater Manchester. Founded in 1878 as Newton Heath LYR, the club adopted its current name in 1902 and has since built a rich legacy in English and European football. United has won multiple Premier League titles, FA Cups, and UEFA Champions League trophies, with legendary managers like Sir Matt Busby and Sir Alex Ferguson shaping its dominance. Known for its attacking style and producing world-class players such as George Best, Eric Cantona, Ryan Giggs, and Cristiano Ronaldo, the club has a massive global fanbase. Playing at the iconic Old Trafford, The Theatre of Dreams, Manchester United continues to compete at the highest level, aiming to reclaim its place at the top of English and European football.",
       "league": "Premier League",
       "position": 13,
       "captain": "Bruno Fernandes",
@@ -23,7 +23,7 @@
       "founded": 1880,
       "league_titles": 8,
       "coach": "Pep Guardiola",
-      
+
       "stadium": "Etihad"
     },
     {
