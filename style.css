@@ -12,8 +12,8 @@ body {
 header {
   background: linear-gradient(
     to right,
-    #00383c,
-    #32e90d
+    #1403a7,
+    #40df21
   ); /*I want my colors to change from left to right*/
   padding: 5px;
   display: flex;
@@ -40,8 +40,8 @@ nav {
 #search,
 #filter,
 #explore {
-  background-color: rgb(189, 227, 236);
-  color: rgb(8, 67, 228);
+  background-color: rgb(189, 233, 236);
+  color: rgb(13, 14, 13);
   border: none;
   padding: 10px;
   border: none;
@@ -51,7 +51,7 @@ nav {
 }
 #search:hover,
 #explore:hover {
-  background-color: rgba(255, 255, 255, 0.604);
+  background-color: rgba(61, 58, 58, 0.604);
 }
 
 #explore {
@@ -59,7 +59,7 @@ nav {
 }
 
 #filter:hover {
-  background-color: rgba(197, 46, 66, 0.605);
+  background-color: rgba(77, 11, 19, 0.605);
 }
 
 main {
@@ -71,14 +71,14 @@ main {
   width: 40%;
   border-right: 2px solid grey;
   cursor: pointer;
-  background: rgba(51, 201, 51, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
+  background: rgba(115, 218, 115, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
 }
 
 #details {
-  background: rgba(151, 125, 109, 0.8);
+  background: rgba(20, 20, 20, 0.8);
   width: 60%;
   padding-left: 20px;
-  color: rgb(217, 240, 7);
+  color: rgb(177, 174, 25);
   align-items: center;
 }
 
@@ -94,7 +94,7 @@ main {
   font-weight: bolder;
   text-align: center;
   margin-bottom: 10px;
-  color: rgb(84, 9, 223);
+  color: rgb(9, 223, 55);
   font-size: xx-large;
 }
 
