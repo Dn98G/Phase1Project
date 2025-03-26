@@ -10,7 +10,7 @@
       "captain": "Bruno Fernandes",
       "founded": 1878,
       "coach": "Ruben Amorim",
-       "stadium": "Old Trafford"
+      "stadium": "Old Trafford"
     },
     {
       "id": 2,
@@ -23,30 +23,7 @@
       "founded": 1880,
       "league_titles": 8,
       "coach": "Pep Guardiola",
-      "key_players": [
-        "Ederson",
-        "Stefan Ortega",
-        "Scott Carson",
-        "Rúben Dias",
-        "John Stones",
-        "Nathan Aké",
-        "Josko Gvardiol",
-        "Manuel Akanji",
-        "Rico Lewis",
-        "Kyle Walker",
-        "Rodri",
-        "Mateo Kovacic",
-        "Kevin De Bruyne",
-        "Bernardo Silva",
-        "Phil Foden",
-        "Matheus Nunes",
-        "Oscar Bobb",
-        "Jérémy Doku",
-        "Jack Grealish",
-        "Erling Haaland",
-        "Savinho",
-        "Omar Marmoush"
-      ],
+      
       "stadium": "Etihad"
     },
     {
@@ -61,13 +38,13 @@
       "league_titles": 19,
       "ucl_titles": 6,
       "coach": "Arne Slot",
-      
+
       "stadium": "Anfield"
     },
     {
       "id": 4,
       "name": "Chelsea",
-      "badge": "https://img.chelseafc.com/image/upload/h_120/v1/logos/cfc-main-800x800.png",
+      "badge": "https://res.cloudinary.com/chelsea-production/image/upload/c_fit,h_630,w_1200/v1/site-assets/Backgrounds/Screensaver",
       "description": "Chelsea Football Club, commonly known as Chelsea or the Blues, is one of England's most successful football clubs. Founded in 1905, the club is based in London and plays its home games at Stamford Bridge, a historic stadium located in the borough of Fulham. Chelsea has achieved remarkable success domestically and internationally, with multiple Premier League titles, FA Cups, League Cups, UEFA Champions League trophies, UEFA Europa League titles, and a FIFA Club World Cup. The club's modern rise to prominence began in 2003 when it was acquired by Roman Abramovich, whose investment transformed Chelsea into a football powerhouse. More recently, Chelsea has continued its competitive legacy under new ownership. Known for its star-studded squad and strong defensive play, Chelsea boasts a rich history of legendary players and iconic managers, such as José Mourinho and Thomas Tuchel, who have guided the team to major triumphs. Chelsea's rivalry with clubs like Arsenal, Tottenham Hotspur, and Manchester United adds intensity to its matches, making it a key player in both English and European football.",
       "league": "Premier League",
       "position": 6,
@@ -83,7 +60,6 @@
       "name": "Arsenal",
       "badge": "https://www.arsenal.com/themes/custom/arsenal_main/images/arsenal-crest.png",
       "description": "Arsenal Football Club, commonly referred to as Arsenal or the Gunners, is one of the most successful and historic football clubs in England. Founded in 1886 as Dial Square, the club is based in Islington, London, and plays its home matches at the Emirates Stadium, which has been their home since 2006. Arsenal has a rich history of achievements, including multiple English top-flight league titles, FA Cups, and a record for the longest unbeaten run in Premier League history during the 2003-2004 season, famously known as the 'Invincibles' campaign. The club is renowned for its attacking style of play and has been home to legendary players like Thierry Henry, Dennis Bergkamp, and Patrick Vieira. Arsenal's fierce rivalries, particularly with Tottenham Hotspur in the North London Derby, add to its storied legacy. Under the management of Mikel Arteta, Arsenal has been rebuilding its competitive edge, aiming to reclaim its place among the elite clubs in European football.",
-      "league": "Premier League",
       "position": 2,
       "captain": "Martin Odegaard",
       "founded": 1886,
@@ -95,12 +71,11 @@
     {
       "id": 6,
       "name": "Tottenham Hotspur",
-      "badge": "https://yt3.googleusercontent.com/tTaDFj1_pVKMvfburc-9yBvPZ0i_jz58Dls60blgvz5F_qfAMoe-_DQaEuTDPYJFA687hIcSKA=s900-c-k-c0x00ffffff-no-rj",
-      "description": "Tottenham Hotspur Football Club, commonly referred to as Spurs, is a professional football club based in London, England. Founded in 1882, the club plays its home matches at the Tottenham Hotspur Stadium, a state-of-the-art venue that opened in 2019. Tottenham has a rich history and is known for its attacking style of play and commitment to developing young talent. The club has won several major trophies, including FA Cups, League Cups, and the UEFA Cup, and has consistently competed in the Premier League and European competitions. Spurs have a passionate fanbase and fierce rivalries, particularly with Arsenal in the North London Derby. The club's modern era has seen significant investment and ambition, aiming to establish itself as one of the top teams in England and Europe.",
-      "position": 15,
+      "badge": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/20062.png",
+      "description": "Tottenham Hotspur F.C., commonly known as Spurs, is a historic football club based in North London, England. Founded in 1882, the club has a rich legacy and a passionate fanbase. Known for their attacking style of play, Spurs have consistently been a strong competitor in English football, with notable successes including multiple FA Cup victories and a historic league-and-cup double in 1961. However, their current position of 14th in the Premier League suggests a challenging season, as they strive to regain form and push for European qualification. With a talented squad and a state-of-the-art stadium, Tottenham remains a club with ambitions of returning to the upper echelons of English football.",
+      "position": 14,
       "captain": "Heung Min Son",
       "founded": 1882,
-      "league_titles": 0,
       "ucl_titles": 0,
       "coach": "Ange Postecoglou",
       "stadium": "Tottenham Hotspur Stadium"
@@ -110,12 +85,12 @@
       "name": "Everton",
       "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/1200px-Everton_FC_logo.svg.png",
       "description": "Everton are one of the oldest and most successful clubs in England, having won twenty-four major trophies: nine league titles, five FA Cups, one European Cup Winners' Cup and nine Charity Shields. Everton won their first League Championship during the 1890–91 season.",
-      "position": 1,
-      "captain": "Marc Andre Ter Stegen",
-      "founded": 1899,
+      "position": 15,
+      "captain": "Seamus Coleman",
+      "founded": 1878,
       "league_titles": 9,
       "coach": "David Moyes",
-      "stadium": "Camp Nou"
+      "stadium": "Goodison Park"
     },
     {
       "id": 9,
