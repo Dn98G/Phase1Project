@@ -1,128 +1,123 @@
-html{
-    font-size: 60%;
-    box-sizing: border-box;
-}
 body {
-    font-size: 1.5rem;
-    font-weight: 400;
-    background-color: rgb(8, 10, 10);
-    color: rgb(27, 21, 21);
-}
-h1,h2,h3,h4{
-    font-weight: 500;
-    
-}
-h1{
-    font-style: inherit;
-}
-h4{
-    font-style: oblique;
-    font-variant: small-caps;
-}
-a{
-    text-decoration: none;
-}
-img{
-    height: 700px;
-    width: 700px;
-    position: fixed;
-    right: 5%;
-    z-index: -1;
-    margin-top: 30px;
-    padding-top: 120px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(https://assets.architecturaldigest.in/photos/60082342345ead69c9c1aeb6/16:9/w_2560%2Cc_limit/FIFA-2018-World-Cup-Featured-1366x768.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
-.container{
-    max-width: 114rem;
-    margin: 0 auto;
-    color: rgb(20, 20, 20);
-}
-.header{
-    position: relative;
-    font-size: large;
-    font-style: inherit;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(4, 112, 40);
-    z-index: 1;
-}
-.nav-list{
-    list-style: none;
+header {
+  background: linear-gradient(
+    to right,
+    #00383c,
+    #32e90d
+  ); /*I want my colors to change from left to right*/
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav{
-    color: rgb(83, 80, 79);
-    align-items: center;
-    justify-content: space-between;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(226, 230, 7);
+  margin-left: 20px;
+}
 
+header h4 {
+  font-size: 1rem;
 }
-.top-nav{
-    display: run-in;
-}
-.navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
+nav {
+  display: flex;
+  gap: 10px;
 }
-.logo h1{
-    font-size: 2.5rem;
-    color: rgb(206, 206, 19);
+
+#search,
+#filter,
+#explore {
+  background-color: rgb(189, 227, 236);
+  color: rgb(8, 67, 228);
+  border: none;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
 }
-.logo h1 span{
-    font-weight: bold;
-    color: chocolate;
+#search:hover,
+#explore:hover {
+  background-color: rgba(255, 255, 255, 0.604);
 }
-.nav-list{
-    display: flex;
-    align-items: center;
+
+#explore {
+  margin-right: 10px;
 }
-.nav.item:not(:last-child){
-    margin-right: 0.5rem;
+
+#filter:hover {
+  background-color: rgba(197, 46, 66, 0.605);
 }
-.nav-link:link,nav-link:visited{
-    color: rgb(86, 11, 172);
-    padding: 1rem 0.8rem;
-    transition: all 300ms ease-in-out;
-    font-size: large;
-    font-weight: 300;
+
+main {
+  display: flex;
+  padding: 20px;
 }
-.nav-link:hover{
-    border-radius: 0.3rem;
-    background-color: rgb(196, 165, 168);
+
+#list {
+  width: 40%;
+  border-right: 2px solid grey;
+  cursor: pointer;
+  background: rgba(51, 201, 51, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
 }
-@media only screen and (max-width:1200px){
-    .container{
-        padding: 0 3rem;
-    }
+
+#details {
+  background: rgba(151, 125, 109, 0.8);
+  width: 60%;
+  padding-left: 20px;
+  color: rgb(217, 240, 7);
+  align-items: center;
 }
-@media only screen and (max-width:768px){
-    .menu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: 100%;
-        max-width: 40rem;
-        background: #fff;
-        transition: all 500ms ease-in-out;
-        z-index: 100;
-    }
+
+#badge {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
 }
-.menu .show{
-    left: 0;
+
+#name {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(84, 9, 223);
+  font-size: xx-large;
 }
-.top-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: bisque
-    paddi
+
+.club-item:hover {
+  background-color: rgb(163, 229, 150);
 }
-.hamburger {
-    display: block;
-    color: burlywood;
-    font-size: medium;
-    padding: 0.5rem;
-    cursor: pointer;
+
+.club-item[data-league="Premier League"] {
+  color: rgb(61, 25, 91);
+}
+
+.club-item[data-league="La Liga"] {
+  color: rgb(238, 135, 7);
+}
+
+.club-item[data-league="Bundesliga"] {
+  color: rgb(210, 5, 21);
+}
+
+.club-item[data-league="Serie A"] {
+  color: rgb(0, 143, 215);
+}
+
+.club-item[data-league="Ligue 1"] {
+  color: rgb(18, 35, 63);
 }

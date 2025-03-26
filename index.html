@@ -3,54 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>English Premier League</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header" id="home">
-    <div class="nav">
-        <div class="navigation container">
-            <div class="logo">
-                <h1>MANCHESTER UNITED<span></span></h1>
-            </div>
-            <div class="menu">
-                <div class="top.nav">
-                    <div class="Logo">
-            </div>
-            <div class="Close">
-                <i class="fa fa-times"></i>
-                </div>
-            </div>
-        </div>
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="#service" class="nav-link">Service</a>
-            </li>
-            <li class="nav-item">
-                <a href="#team" class="nav-link">Team</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact" class="nav-link">Media</a>
-            </li>
-        </ul>
-         </div>
-         <div class="hamburger">
-            <i class="fa fa-bars"></i>
-         </div>
-          </div>
-    </div>
-   <Img src="https://www.soccerbooks.co.uk/cdn/shop/files/The-Official-Manchester-United-Annual-2025.png?v=1727680250"></Img>
-   <div class="hero">
-    <h3>Manchester United, nicknamed "The Red Devils," is a professional football club based in Old Trafford, Greater Manchester, England, competing in the Premier League, the top tier of English football. They were founded in 1878 as Newton Heath LYR Football Club, changing their name to Manchester United in 1902. </h3>
-    <h4>THE RED DEVILS<span id="type1"></span></h4>
-   </div>
-    <script src="./index.js"></script>
+    <header>
+        <h1>ENGLISH PREMIER LEAGUE</h1>
+        <h4>Discover The Greatest EPL Teams</h4>
+        <nav>
+    
+            <input type="text" id="search" placeholder="Search clubs...">
+            <select id="filter">
+               
+                <option value="Premier League">Premier League</option>
+                
+            </select>
+             <button id="Probe Clubs"></button>
+        </nav>
     </header>
+
+    <main>
+
+        <ul id="list"></ul>
+        <div id="details"><!--I'm addding my placeholders here to make my js less complex and keep my structure clean-->
+          
+            <h3 id="name">Select a club</h3>
+            <img id="badge" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqF71buezUH_TBQcLY7B1lMFcBf0T1ev4lRg&s" alt="Club badge">
+            <p id="description"></p>
+            <p><i>Date Founded:</i><strong id="founded"></strong></p>
+            <p><i>Stadium:</i><strong id="stadium"></strong></p>
+            <p><i>Players:</i><strong id="players"></strong></p>
+            <p><i>UCL Titles:</i><strong id="ucl"></strong></p>
+            <p><i>League Titles:</i><strong id="titles"></strong></p>
+            <p><i>Captain:</i><strong id="captain"></strong></p>
+            <p><i>Head Coach:</i><strong id="coach"></strong></p>
+            <p><i>League:</i><strong id="league"></strong></p>
+            <p><i>Position:</i><strong id="position"></stong></p> 
+        </div> 
+    </main>
+
+    <script src="./index.js"></script>
 </body>
+<footer>
+    <p>&copy 2025 World's Top Football Clubs.All rights reserved </p>
+</footer>
 </html>
+   
