@@ -1,7 +1,7 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-image: url(https://assets.architecturaldigest.in/photos/60082342345ead69c9c1aeb6/16:9/w_2560%2Cc_limit/FIFA-2018-World-Cup-Featured-1366x768.jpg);
+  background-image: url(https://w0.peakpx.com/wallpaper/225/442/HD-wallpaper-manchester-united-f-c-logo-soccer-club-sport-emblem-man-united-united-love-manchester-united-heart-manchester-football.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -12,9 +12,9 @@ body {
 header {
   background: linear-gradient(
     to right,
-    #1403a7,
-    #40df21
-  ); /*I want my colors to change from left to right*/
+    #798673,
+    #f71504
+  ); 
   padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ header {
 h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(226, 230, 7);
+  color: rgb(29, 7, 230);
   margin-left: 20px;
 }
 
@@ -37,10 +37,8 @@ nav {
   gap: 10px;
 }
 
-#search,
-#filter,
-#explore {
-  background-color: rgb(189, 233, 236);
+#search {
+  background-color: rgb(67, 235, 235);
   color: rgb(13, 14, 13);
   border: none;
   padding: 10px;
@@ -69,16 +67,16 @@ main {
 
 #list {
   width: 40%;
-  border-right: 2px solid grey;
+  border-right: 2px solid rgb(19, 209, 13);
   cursor: pointer;
-  background: rgba(108, 211, 194, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
+  background: rgba(3, 199, 61, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
 }
 
 #details {
-  background: rgba(60, 63, 59, 0.8);
+  background: rgba(141, 143, 16, 0.8);
   width: 60%;
   padding-left: 20px;
-  color: rgb(206, 203, 46);
+  color: rgb(10, 10, 10);
   align-items: center;
 }
 

@@ -1,40 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const listContainer = document.getElementById("list");
+  const listContainer = document.getElementById("list"); 
 
-  const badge = document.getElementById("badge");
+  const badge = document.getElementById("badge"); 
 
-  const description = document.getElementById("description");
-  const name = document.getElementById("name");
-  const league = document.getElementById("league");
+  const description = document.getElementById("description"); 
+  const name = document.getElementById("name"); 
+  const height = document.getElementById("height");
   const position = document.getElementById("position");
-  const captain = document.getElementById("captain");
-  const founded = document.getElementById("founded");
-  const ucl = document.getElementById("ucl");
-  const coach = document.getElementById("coach");
-  const players = document.getElementById("players");
-  const stadium = document.getElementById("stadium");
+  const dateOfBirth = document.getElementById("dob");
+  const weight = document.getElementById("weight");
+  const nationality = document.getElementById("nationality");
+  
 
   
   fetch("db.json")
     .then((response) => response.json()) 
     .then((data) => {
-      const clubs = data.clubs; 
-      displayClubs(clubs); 
+      const manu = data.manu; 
+      displayManu(manu); 
     })
     .catch((error) => console.error("Error fetching data:", error));
 
   document.getElementById("explore").addEventListener("click", () => {
-    document.getElementById("list").scrollIntoView({ behavior: "smooth" }); /
+    document.getElementById("list").scrollIntoView({ behavior: "smooth" }); 
   });
 
-  function displayClubs(clubs) {
-    
+  function displayManu(manu) {
+
     listContainer.innerHTML = "";
 
-    clubs.forEach((club) => {
+    manu.forEach((club) => {
+     
       const clubItem = document.createElement("li"); 
       clubItem.textContent = club.name; 
-      clubItem.classList.add("club-item");
+      clubItem.classList.add("club-item"); 
 
       clubItem.setAttribute("data-league", club.league);
 
@@ -44,8 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+
   function displayDetails(club) {
-    badge.src = club.badge; 
+    badge.src = club.badge;
     name.textContent = club.name;
     description.textContent = club.description;
     league.textContent = club.league;
@@ -60,25 +60,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-function searchClubs() {
-  const searchInput = document.getElementById("search").value; 
 
-  document.querySelectorAll(".club-item").forEach((clubItem) => {
-    clubItem.style.display = clubItem.textContent.includes(searchInput) 
-      ? "block" 
-      : "none"; 
-  });
-}
 document.getElementById("search").addEventListener("input", searchClubs);
-
-function filter() {
-  const league = document.getElementById("filter").value; 
-  document.querySelectorAll(".club-item").forEach((clubItem) => {
-    const clubLeague = clubItem.getAttribute("data-league");
-
-    clubItem.style.display =
-      league === "All" || clubLeague === league ? "block" : "none";
-  });
-}
-
-document.getElementById("filter").addEventListener("change", filter);
