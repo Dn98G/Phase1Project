@@ -1,76 +1,64 @@
 {
   "manu": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bruno Fernandes",
       "badge": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/b0df/live/3984e5f0-a1dd-11ef-8434-b7d2b888363b.jpg",
       "description": "Bruno Fernandes is a Portuguese professional footballer who plays as an attacking midfielder for Manchester United and the Portugal national team. Known for his creativity, vision, and goal-scoring ability, he is a key playmaker with exceptional passing, shooting, and leadership skills."
-      
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Amad Diallo",
       "badge": "https://thepeoplesperson.com/wp-content/uploads/2024/12/amad-diallo-manchester-city-fc-v-manchester-united-fc-premier-league.jpg",
       "description": "Amad Diallo is an Ivorian professional footballer who plays as a winger for Manchester United and the Ivory Coast national team. He is known for his speed, dribbling ability, and technical skill, making him a dangerous attacker on the flanks."
-      },
+    },
     {
-      "id": 3,
+      "id": "3",
       "name": "Alejandro Garnacho",
       "badge": "https://cdn.vox-cdn.com/thumbor/8RKvCHKi6L02VlrS4JbM3DLstCQ=/0x0:6842x4887/1200x800/filters:focal(2570x963:3664x2057)/cdn.vox-cdn.com/uploads/chorus_image/image/72981480/1847991322.0.jpg",
       "description": "Alejandro Garnacho is a young and exciting Argentine footballer who plays as a winger for Manchester United and the Argentina national team. He is known for his speed, dribbling, and direct attacking play, making him one of the most promising young talents in football today."
-      
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Kobbie Mainoo",
       "badge": "https://focus.independent.ie/thumbor/AOjcH6Xz_0D8P_6W0klw4e2ONWc=/0x85:4500x3086/960x640/prod-mh-ireland/caeba68e-022f-432d-a0ac-45dfad9bf010/699597cc-3413-483f-8159-22753205ee0a/caeba68e-022f-432d-a0ac-45dfad9bf010.jpg",
       "description": "Kobbie Mainoo is an English footballer who plays as a central midfielder for Manchester United. He is known for his composure on the ball, passing ability, and tactical intelligence, making him one of the most promising young midfielders in English football."
-      
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Joshua Zirkzee",
       "badge": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSh_c1vAQeW4ipMFuQGWr5I7dwNcoBKDfmKnuvy9J4--02xELsJR26K12b1eC7k4ftqnODyQXuTvK6N1Pw",
       "description": "Zirkzee began his professional career at Bayern Munich, making his first-team debut in 2019. He showed glimpses of his talent but struggled for consistent game time, leading to loan spells at Parma and Anderlecht, where he gained valuable experience. In 2022, he signed for Bologna, where he has flourished as a key player in Serie A."
-      
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Rasmus Hojlund",
       "badge": "https://static01.nyt.com/athletic/uploads/wp/2024/04/25014145/GettyImages-2149436764-scaled.jpg",
       "description": "Rasmus Højlund is a 22-year-old Danish professional footballer who plays as a striker for Premier League club Manchester United and the Denmark national team, known for his strong play and goal-scoring ability. "
-      
-
-      
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Carlos Casemiro",
       "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMR0QLQ3tMe39LcyVqWy3QCfibjANwu-BHebZ2ry3Y-K9KGWAkfGYn-vDLkTFl3J3XrQPq3DDUrFVEpzN7xCu-JQ",
       "description": "Carlos Henrique Casimiro (born 23 February 1992), also known mononymously as Casemiro, is a Brazilian professional footballer who plays as a defensive midfielder for Premier League club Manchester United and the Brazil national team. Casemiro began his career with São Paulo and progressed through the ranks."
-      
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Lisandro Martinez",
       "badge": "https://assets.goal.com/images/v3/bltcfa2a3731bc65867/GettyImages-1437737458.jpg?auto=webp&format=pjpg&width=3840&quality=60",
       "description": "Lisandro Martínez is an Argentine professional footballer who plays as a center-back for Manchester United and the Argentina national team, known for his aggressive defending style and versatility, having played as a left-back and defensive midfielder. "
-
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Harry Maguire",
       "badge": "https://static.independent.co.uk/2023/08/05/06/f805c113567223ca4dd957f447caea2fY29udGVudHNlYXJjaGFwaSwxNjkxMjM5MTEz-2.73022562.jpg",
       "description": "Harry Maguire is an English professional footballer, a center-back for Premier League club Manchester United and the England national team, known for his physicality, aerial ability, and leadership qualities. "
-      
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Diogo Dalot",
       "badge": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTmuCDDyx6rUk_qFnHaeNfnmma417Qy6Xurs6q_zeExNMh9-u9Ob9Gm3elpXc9zzRweCNBK7FZh1Q2XWKM",
       "description": "Diogo Dalot is a Portuguese professional footballer who plays as a right-back for Manchester United and the Portugal national team, known for his versatility, speed, and ability to contribute both defensively and offensively. "
-      
     }
-    
   ]
 }
