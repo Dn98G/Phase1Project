@@ -4,7 +4,6 @@ body {
   background-image: url(https://w0.peakpx.com/wallpaper/225/442/HD-wallpaper-manchester-united-f-c-logo-soccer-club-sport-emblem-man-united-united-love-manchester-united-heart-manchester-football.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
   width: 100%;
   height: 100vh;
 }
@@ -39,26 +38,21 @@ nav {
 
 #search {
   background-color: rgb(67, 235, 235);
-  color: rgb(13, 14, 13);
+  color: rgb(23, 197, 23);
   border: none;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 20px;
   cursor: pointer;
   font-size: 10px;
 }
-#search:hover,
-#explore:hover {
-  background-color: rgba(61, 58, 58, 0.604);
+#search:hover {
+  background-color: rgba(211, 201, 201, 0.604);
 }
 
 #explore {
   margin-right: 10px;
 }
 
-#filter:hover {
-  background-color: rgba(77, 11, 19, 0.605);
-}
 
 main {
   display: flex;
@@ -66,24 +60,24 @@ main {
 }
 
 #list {
-  width: 40%;
-  border-right: 2px solid rgb(19, 209, 13);
+  width: 50%;
+  border-right: 4px solid rgb(209, 196, 13);
   cursor: pointer;
-  background: rgba(3, 199, 61, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
+  background: rgba(122, 180, 140, 0.85); /*0.9 to reduce opacity in order for the background image to be visible*/
 }
 
 #details {
-  background: rgba(141, 143, 16, 0.8);
-  width: 60%;
+  background: rgba(16, 143, 27, 0.8);
+  width: 55%;
   padding-left: 20px;
   color: rgb(10, 10, 10);
   align-items: center;
 }
 
 #badge {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
+  width: 220px;
+  height: 220px;
+  margin: 20px;
   text-align: center;
   display: inline-block;
 }
@@ -91,31 +85,11 @@ main {
 #name {
   font-weight: bolder;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: rgb(85, 223, 72);
   font-size: xx-large;
 }
 
 .club-item:hover {
   background-color: rgb(209, 214, 176);
-}
-
-.club-item[data-league="Premier League"] {
-  color: rgb(61, 25, 91);
-}
-
-.club-item[data-league="La Liga"] {
-  color: rgb(238, 135, 7);
-}
-
-.club-item[data-league="Bundesliga"] {
-  color: rgb(210, 5, 21);
-}
-
-.club-item[data-league="Serie A"] {
-  color: rgb(0, 143, 215);
-}
-
-.club-item[data-league="Ligue 1"] {
-  color: rgb(19, 29, 44);
 }

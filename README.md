@@ -6,9 +6,9 @@ ASPECTS
 
 Examine a football club database
 
- Look for a club.
+ Look for a player.
 
- Sort clubs according to league
+ Sort player according to posostion
 
  When clicked, the club details are displayed.
 

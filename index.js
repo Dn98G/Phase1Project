@@ -46,17 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function displayDetails(club) {
     badge.src = club.badge;
-    name.textContent = club.name;
+    name.textContent = manu.name;
     description.textContent = club.description;
-    league.textContent = club.league;
-    position.textContent = club.position;
-    captain.textContent = club.captain;
-    founded.textContent = club.founded;
-    titles.textContent = club.league_titles;
-    ucl.textContent = club.ucl_titles;
-    coach.textContent = club.coach;
-    players.textContent = club.key_players;
-    stadium.textContent = club.stadium;
+    
+    
   }
 });
 
